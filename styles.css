@@ -24,23 +24,23 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 1rem;
     margin-top: 2rem;
 }
 
 h1 {
     color: var(--VeryDarkBlue);
     font-weight: 200;
+    margin-bottom: 0;
 }
 
 span {
     font-weight: bold;
+    font-weight: 600;
 }
 
 .about p {
     color: var(--GrayishBlue);
     text-align: center;
-    margin-top: 0.8rem;
 }
 
 .features {
@@ -48,7 +48,7 @@ span {
     grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
     grid-template-rows: auto auto; /* 2 rows */
     gap: 2rem;
-    margin: 40px 100px;
+    margin: 40px 0;
 }
 
 .feature {
