@@ -17,6 +17,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 40px 0;
 }
 
 .about {
