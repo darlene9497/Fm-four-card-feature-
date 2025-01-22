@@ -41,6 +41,7 @@ span {
 .about p {
     color: var(--GrayishBlue);
     text-align: center;
+    font-size: 0.9rem;
 }
 
 .features {
@@ -106,4 +107,27 @@ img {
     width: 60px;
     height: 60px;
     margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .about p {
+        font-size: 1.1rem;
+    }
+
+    .about p br {
+        display: none;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
 }
